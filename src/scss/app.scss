@@ -1,12 +1,6 @@
-$black: #000000;
+@import "variables";
+@import "typography";
+@import "layout";
 
-body {
-  background-color: gray;
-}
-h1 {
-  color: white;
-}
 
-h1:hover {
-  transition: color 1s ease;
-}
+
