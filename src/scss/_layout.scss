@@ -1,3 +1,11 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    @include border-box;
+}
+
 
 body {
     background-color: $bg-color;
@@ -13,3 +21,4 @@ main#main-content {
 footer {
     background-color: $dark-blue;
 }
+
